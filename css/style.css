@@ -1,0 +1,17 @@
+Body {
+    background-color: rgb(53, 145, 25);
+}
+
+/* NAVBAR */
+
+nav {
+    color: #fff;
+    background-color: #3b090b!important;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+.bg-color-nav {
+    background-color: #3b090b!important;
+}
