@@ -1,15 +1,29 @@
-// BgColors
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Satisfy&display=swap');
+
+$fontNav : "Satisfy", sans-serif;
+
+// BACKGROUD & TEXT COLORS
 
 $primaryBg : rgb(255, 255, 255);
 $secoundaryBg: rgb(14, 124, 60);
-$primaryText: white;
+$primaryText: rgb(255, 255, 255);
+
+body {
+    scroll-behavior: smooth;
+}
 
 .navbar {
     background-color: $secoundaryBg;
     a {
         color: $primaryText!important;
     }
+    li {
+        font-family: $fontNav;
+    }
 }
+
 
 .navbar-toggler {
     background: $primaryBg;
@@ -25,28 +39,75 @@ $primaryText: white;
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    
+    .navbar {
+        li {
+            font-size: 1.3rem;
+            padding: 0rem .3rem 0rem;
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+    .navbar {
+        li {
+            font-size: 1.5rem;
+            padding: 0rem .3rem 0rem;
+        }
+    }
 }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
+    .navbar {
+        li {
+            font-size: 1.5rem;
+            padding: 0rem .3rem 0rem;
+        }
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+    .navbar {
+        li {
+            font-size: 2rem;
+            padding: 0rem .5rem 0rem;
+        }
+    }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
     
 }
 
-footer {
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .navbar {
+        li {
+            font-size: 2rem;
+            padding: 0rem .3rem 0rem;
+        }
+    }
 }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    
+}
+
