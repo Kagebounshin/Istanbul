@@ -8,6 +8,7 @@ $fontNav : "Satisfy", sans-serif;
 
 $primaryBg : rgb(255, 255, 255);
 $secoundaryBg: rgb(14, 124, 60);
+$tertiaryBg: rgb(61, 61, 61);
 $primaryText: rgb(255, 255, 255);
 
 body {
@@ -41,6 +42,17 @@ body {
 
 .navbar-light .navbar-toggler {
     border-color: $primaryBg;
+}
+
+// FOOTER
+
+footer {
+    background-color: $tertiaryBg;
+    .footer-top {
+        h1 {
+            color: $primaryText;
+        }
+    }
 }
 
 // BREAKPOINTS
