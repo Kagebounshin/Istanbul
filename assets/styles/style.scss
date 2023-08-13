@@ -19,9 +19,18 @@ body {
     a {
         color: $primaryText!important;
     }
+    a:hover {
+        color: #ff0022!important;
+        text-decoration: underline;
+        transition: 300ms ease-in-out;
+    }
     li {
         font-family: $fontNav;
     }
+}
+
+.navbar-bottom {
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
 }
 
 
